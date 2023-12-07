@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.field{
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.15s;
+}
+.board {
+  border: 2px solid white;
+  display:flex;
+  flex-direction: column;
+}
+.row-1, .row-2, .row-3 {
+  display: flex;
+}
+.field:hover{
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+.replay-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.replay-button:hover {
+  background-color: #0056b3;
+}
+.tally {
+  display: flex;
+  margin-bottom: 10px;
+}
+.tally p {
+  margin: 0 10px
+}
